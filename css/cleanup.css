@@ -1,1 +1,10 @@
 /* write your override styles here */
+#wall .tag-1 {
+    display: none;
+}
+
+div#wall {
+    -moz-box-shadow: 15px 15px 47px rgb(0, 195, 255), -15px -15px 47px rgb(0, 132, 255);
+    -webkit-box-shadow: 15px 15px 47px rgb(0, 195, 255), -15px -15px 47px rgb(0, 132, 255);
+    box-shadow: 15px 15px 47px rgb(0, 195, 255), -15px -15px 47px rgb(0, 132, 255);
+}
